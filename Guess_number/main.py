@@ -25,7 +25,7 @@ def guess_number():
     if guessed_number == encrypted_number:
         print(f"Congratulations, you guessed the number {encrypted_number} in {i} attempts!!!")
     else:
-        print("All limits are exceeded, Please try again !!!")
+        print(f"All limits are exceeded, Please try again !!!and the correct number was {encrypted_number}")
 
 if __name__ == "__main__":
     guess_number()
